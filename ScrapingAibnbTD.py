@@ -1,4 +1,6 @@
+
 from time import sleep
+
 from selenium import webdriver # pip install selenium
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
