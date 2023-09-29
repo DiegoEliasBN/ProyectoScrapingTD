@@ -3,6 +3,7 @@
 Proyecto final de la clase de Tratamiento de Datos - Maestría Ciberseguridad 
 
 ¿Qué es Scraping?
+
 El web scraping es un conjunto de prácticas utilizadas para extraer automáticamente — o «scrapear» — datos de la web.
 
 # Explicación del proceso de Scraping 
