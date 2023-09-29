@@ -4,20 +4,10 @@ from selenium import webdriver # pip install selenium
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
-
-
-
 from webdriver_manager.chrome import ChromeDriverManager # pip install webdriver-manager
 
 opt = Options()
 opt.add_argument("user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36")
-#opts.add_argument("--headless")
-
-# Alternativamente:
-# driver = webdriver.Chrome(
-#     service=Service('./chromedriver'),
-#     options=opts
-# )
 
 driver = webdriver.Chrome(
     service=Service(ChromeDriverManager().install()),
