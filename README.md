@@ -16,4 +16,12 @@ py -m pip install selenium
 py -m pip install webdriver-manager
 
 ```
-![img.png](img.png)
+![img_1.png](img_1.png)
+
+### Paso: 2
+Utilizar Chrome para abrir la página para la extracción de datos
+
+```commandline
+from webdriver_manager.chrome import ChromeDriverManager # pip install webdriver-manager
+
+```
