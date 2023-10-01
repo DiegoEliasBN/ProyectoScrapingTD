@@ -8,6 +8,16 @@ El web scraping es un conjunto de prácticas utilizadas para extraer automática
 
 # Explicación del proceso de Scraping 
 
+### ¿Qué necesitaremos? 
+
+Para este tipo de procesos necesitaremos.
+
+| Programas | Enlace                                                      |
+|-----------|-------------------------------------------------------------|
+| PyCharm   | https://www.jetbrains.com/pycharm/download/?section=windows |
+| MongoDB   | https://account.mongodb.com/account/login                   |
+| Anaconda  | https://www.anaconda.com/download                           |
+
 ### Paso: 1
 Debemos instalar las librerias. 
 
