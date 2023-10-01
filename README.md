@@ -19,11 +19,16 @@ Para este tipo de procesos necesitaremos.
 | Anaconda  | https://www.anaconda.com/download                           |
 
 ### Paso: 1
-Debemos instalar las librerias. 
+
+Utilizando Pycharm crearemos un nuevo proyectyo en `.py` 
+
+En nuestro archivo principal del proyecto debemos improtar las siguientes librerias a utilizar.
 
 import `.selenium`
 
 import `.webdriver-manager`
+
+En caso de no tener instalada dichas librerias, podríamos ejecutar en la terminal la instalación 
 
 ```commandline
 
@@ -32,11 +37,26 @@ py -m pip install webdriver-manager
 
 ```
 ![img_1.png](img_1.png)
-
 ### Paso: 2
 Utilizar Chrome para abrir la página para la extracción de datos
 
 ```commandline
-from webdriver_manager.chrome import ChromeDriverManager # pip install webdriver-manager
-
+from webdriver_manager.chrome import ChromeDriverManager 
+driver = webdriver.Chrome
 ```
+### Paso: 3
+
+Determinamos la URL de la web a realizar la extracción de datos
+
+```commandline
+driver.get('https://www.airbnb.com/')
+```
+
+### Paso: 4
+
+En esta ocasión vamos a extraer los títulos de los sitios recomendados dentro de Airbnb.
+
+![img.png](img.png)
+
+### Paso: 5
+
