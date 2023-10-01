@@ -4,7 +4,7 @@ Proyecto final de la clase de Tratamiento de Datos - Maestría Ciberseguridad
 
 En este proyecto extraeremos datos de la plataforma Airbnb Ecuador. 
 
-![img_5.png](img_5.png)
+![img_5.png](Imagenes/img_5.png)
 
 > __Diseño elaborado en:__ https://excalidraw.com/#json=Vn5UkoRuVI8qknh-hdTJK,jSMmgc_VTfoRuqf71J7xEQ
 
@@ -41,7 +41,7 @@ py -m pip install selenium
 py -m pip install webdriver-manager
 
 ```
-![img_1.png](img_1.png)
+![img_1.png](Imagenes/img_1.png)
 ### Paso: 2
 Utilizar Chrome para abrir la página para la extracción de datos
 
@@ -61,7 +61,7 @@ driver.get('https://www.airbnb.com/')
 
 En esta ocasión vamos a extraer los títulos de los sitios recomendados dentro de Airbnb.
 
-![img.png](img.png)
+![img.png](Imagenes/img.png)
 
 ### Paso: 5
 
@@ -80,7 +80,7 @@ Más la cadena de conexión que nos brinde MongoDB
 
 Si ejecutamos el archivo `mongodb.py` debería establecer la conexión exitosamente. 
 
-![img_2.png](img_2.png)
+![img_2.png](Imagenes/img_2.png)
 
 ### Paso: 7
 
@@ -93,7 +93,7 @@ for titulo in titulos_anuncios:
 
 ```
 
-![img_6.png](img_6.png)
+![img_6.png](Imagenes/img_6.png)
 
 ### Paso: 8
 
@@ -123,4 +123,4 @@ for titulo in titulos_anuncios:
 
 Como podremos observar acontinuación tendremos los datos extraidos insertados en una collection de una base de datos de MongoDB
 
-![img_3.png](img_3.png)
+![img_3.png](Imagenes/img_3.png)
