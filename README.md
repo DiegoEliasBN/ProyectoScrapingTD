@@ -60,3 +60,20 @@ En esta ocasión vamos a extraer los títulos de los sitios recomendados dentro 
 
 ### Paso: 5
 
+Utilizaremos MongoDB como base de datos para almacenar los datos obtenidos. 
+
+Crearemos la conexión a la base de datos mediante el método de driver. 
+
+```commandline
+
+from pymongo.mongo_client import MongoClient 
+
+```
+Más la cadena de conexión que nos brinde MongoDB 
+
+### Paso: 6
+
+Si ejecutamos el archivo `mongodb.py` debería establecer la conexión exitosamente. 
+
+![img_2.png](img_2.png)
+
