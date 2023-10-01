@@ -6,7 +6,7 @@ En este proyecto extraeremos datos de la plataforma Airbnb Ecuador.
 
 ![img_5.png](img_5.png)
 
-> __Diseño elavarado en:__ https://excalidraw.com/#json=y0pajNbJGXYA5XaiuLLP3,Ta_NUCa69Fa0ko6vRoeqVw
+> __Diseño elavarado en:__ https://excalidraw.com/#json=Vn5UkoRuVI8qknh-hdTJK,jSMmgc_VTfoRuqf71J7xEQ
 
 ### ¿Qué es Scraping?
 
